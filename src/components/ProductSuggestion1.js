@@ -1,6 +1,7 @@
 import React from "react";
 import ProductType1 from "../elements/ProductType1";
-import Cctv from "../assets/images/cctv.png";
+
+const Cctv = "/assets/images/cctv.png";
 
 export default function ProductSuggestion1() {
   return (

@@ -1,4 +1,3 @@
-import ProductImage from "../assets/images/product1.jpeg";
 import Product from "../elements/Product";
 import HeaderNormal from "../elements/HeaderNormal";
 import React, { useState } from "react";

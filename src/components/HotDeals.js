@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Colors } from "../config/Colors";
 import HeaderNormal from "../elements/HeaderNormal";
-import ProductImage from "../assets/images/product1.jpeg";
 import styled from "styled-components";
 import { Font } from "../config/Font";
 import moment from "moment";
@@ -19,6 +18,7 @@ function Product2({
   label,
   price,
   name,
+  image,
   discount,
   decorationText,
 }) {
@@ -46,7 +46,7 @@ function Product2({
           className="d-flex justify-content-center align-items-center"
         >
           <img
-            src={ProductImage}
+            src={image}
             className="mx-auto"
             style={{ height: "200px" }}
           />

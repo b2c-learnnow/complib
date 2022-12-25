@@ -5,10 +5,10 @@ import { AiFillSetting, AiFillPhone } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
 import { Font } from "../config/Font";
 import { BsFillBagCheckFill } from "react-icons/bs";
-import { contactInfo } from "../services/homePage";
 import { Link } from "react-router-dom";
 import { MdLogout } from "react-icons/md";
-import Login from "../pages/loginpage";
+// import Login from "./loginpage"; // create seperate login component
+
 const TopNav = () => {
   const [openModel, setOpenModel] = useState(false);
 
@@ -16,20 +16,6 @@ const TopNav = () => {
     mobile: 9999900000,
     email: "wwww.xxxxx@gmail.com",
   });
-
-  const fetchData = async () => {
-    const { data, status } = await contactInfo();
-    setState(data);
-    console.log("Basic Info", data, status);
-  };
-
-  console.log("Test1", 3);
-
-  useEffect(() => {
-    fetchData();
-  }, []);
-
-  console.log("Test1", 1);
 
   const phoneNumber = 7644015588;
   const email = "praispranav@gmail.com";
@@ -95,7 +81,7 @@ const TopNav = () => {
             
               <div className="modal-content">
           
-                <Login />
+                {/* <Login /> */}
               </div>
       
             </div>

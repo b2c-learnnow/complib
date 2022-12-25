@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Colors } from "../config/Colors";
-import { Font } from "../config/Font";
-import ProductImage from "../assets/images/product1.jpeg";
 import Product from "../elements/Product"
 import _ from "lodash";
+
+const ProductImage = "/assets/images/product1.jpeg";
 
 const data = [
     {

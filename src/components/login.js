@@ -6,8 +6,9 @@ import Footer from "../components/Footer";
 import styled from "styled-components";
 import { Colors } from "../config/Colors";
 import { Font } from "../config/Font";
-import LoginImage from "../assets/images/loginimg.jpg";
 import { Link } from "react-router-dom";
+
+const LoginImage = "/assets/images/loginimg.jpg";
 
 const Whitebackground = styled.div({
   height: "700px",

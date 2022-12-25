@@ -1,13 +1,14 @@
 import React from "react";
 import { Font } from "../config/Font";
 import IconButton from "../elements/IconButton";
-import ProductImage from "../assets/images/product1.jpeg";
 import Product from "../elements/Product";
 import Cctv from "../assets/images/cctv.png";
 import ProductType2 from "../elements/ProductType1";
 import HeaderNormal from "../elements/HeaderNormal"
 import { Colors } from "../config/Colors"
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
+
+const ProductImage = "/assets/images/product1.jpeg";
 
 function Product3({ discount, image, price, name }) {
   return (
