@@ -4,7 +4,6 @@ import { Colors } from '../config/Colors'
 import { motion, AnimatePresence } from 'framer-motion'
 import IconButton from '../elements/IconButton'
 import { BsBagCheckFill } from 'react-icons/bs'
-import { getCarousel } from '../services/homePage'
 
 const BubbleContainer = styled.div`
   position: absolute;
