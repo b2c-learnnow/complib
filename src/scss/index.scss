@@ -1,0 +1,357 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.border-radius {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.w-150 {
+  width: 150% !important;
+}
+
+h3 {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+
+.inline-flex {
+  display: inline-flex;
+  width: 100% !important;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.inline-flex::-webkit-scrollbar {
+  overflow: hidden;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background: white !important;
+  color: #3949ab !important;
+}
+
+.width-height-60px {
+  width: 55px !important;
+  height: 55px !important;
+}
+
+.border-inactive {
+  border: 1.4px solid #9fa8da;
+}
+
+.border-active {
+  border: 2px solid #3949ab;
+}
+.toptext {
+  display: flex;
+  border: 1px solid rgba(128, 128, 128, 0.463);
+  height: 60px;
+  width: 600px;
+  margin-top: -12px;
+}
+.topline {
+  background-color: black;
+  width: 100%;
+  height: 1px;
+}
+
+.deliveryfeetext {
+  padding-top: 20px;
+  width: 400px;
+}
+.bottombox {
+  background: #fff;
+  height: 80px;
+  width: 100%;
+  box-shadow: 0 -2px 10px 0 rgb(0 0 0 / 10%);
+  border-top: 1px solid #f0f0f0;
+  margin-top: 10px;
+  padding-left: 580px;
+  padding-top: 15px;
+}
+
+.orderbutton {
+  height: 50px;
+  width: 250px;
+  background: #fb641b;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+  border: none;
+  color: #fff;
+  border-radius: 2px;
+  font-weight: 500;
+}
+
+.continuebutton {
+  height: 50px;
+  width: 180px;
+  background: #fb641b;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+  border: none;
+  color: #fff;
+  border-radius: 2px;
+  font-weight: 500;
+}
+
+.buttonbox1 {
+  padding-left: 200px;
+}
+
+.logintext {
+  margin-right: 400px;
+}
+
+.roundbutton {
+  border-color: #2874f0;
+  display: inline-block;
+  border: 2px solid #979797;
+  border-radius: 100%;
+  height: 16px;
+  width: 16px;
+  position: relative;
+  vertical-align: top;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.locationbutton {
+  padding: 14px 24px;
+  font-size: 14px;
+  background-color: #2874f0;
+  color: #fff;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  border: none;
+  font-weight: 500;
+}
+
+.inputtext {
+  height: 50px;
+  width: 300px;
+  margin-left: 20px;
+  border: 1px solid gray;
+
+  border-radius: 2px;
+  padding: 20px 16px 0 13px;
+  box-shadow: #2874f0;
+  border-color: gray;
+}
+
+.inputtextadd {
+  height: 100px;
+  width: 623px;
+  margin-left: 20px;
+  border: 1px solid gray;
+
+  border-radius: 2px;
+  padding: 20px 16px 0 13px;
+  box-shadow: #2874f0;
+  border-color: gray;
+}
+
+.cancelbtn {
+  color: #2874f0;
+  border: none;
+  font-weight: 500;
+  background-color: #f5faff;
+  padding-left: 50px;
+}
+
+#otp-input {
+  padding: 0px;
+  padding-left: 4px;
+  letter-spacing: 24px;
+  border: 0;
+  background-image: linear-gradient(
+    to left,
+    #167ffc 70%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: bottom;
+  background-size: 33px 1px;
+  background-repeat: repeat-x;
+  background-position-x: 19px;
+  width: 220px;
+  min-width: 220px;
+  margin-bottom: 0px;
+  outline: none;
+}
+
+#otp-content {
+  left: 0;
+  position: sticky;
+}
+
+#otp-holder {
+  width: 190px;
+  overflow: hidden;
+}
+
+.medium {
+  font-weight: 500;
+  font-size: large;
+}
+.x-small {
+  font-size: small;
+}
+.bold-small {
+  font-weight: 500;
+  font-size: small;
+}
+.x-small-color {
+  font-size: 12px;
+  font-weight: 500;
+  color: grey;
+}
+.green-bold-small {
+  font-weight: 500;
+  font-size: small;
+  color: green;
+}
+.red-bold-small {
+  font-weight: 500;
+  font-size: small;
+  color: rgb(197, 14, 14);
+}
+.primary-bold-small {
+  font-weight: 500;
+  font-size: small;
+  color: #3949ab;
+}
+.bold-medium {
+  font-weight: 500;
+  font-size: medium;
+}
+
+.openmodel {
+  display: none;
+}
+.loginbluecard {
+  height: 500px;
+  width: 200px;
+  background-color: #3949ab;
+  border-radius: 3px;
+  color: White;
+  font-family: sans-serif;
+}
+.logincard {
+  display: flex;
+  align-content: center;
+}
+.loginwhitecard {
+  height: 500px;
+  width: 350px;
+  background-color: White;
+  border-radius: 3px;
+}
+.greysmallfont {
+  font-size: 13px;
+  font-weight: 500;
+  color: #757575;
+}
+.primarysmallfont {
+  font-size: 13px;
+  font-weight: 500;
+  color: #3949ab;
+}
+.greycenterfont {
+  color: #bdbdbd;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+.primarymediumfont {
+  font-weight: 500;
+  font-size: 14px;
+  color: #3949ab;
+  text-align: center;
+}
+.normalfont {
+  font-weight: 500;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+.primarynormalfont {
+  font-weight: 500;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: #3949ab;
+}
+.linecard {
+  border-bottom: 1px solid #bdbdbd;
+}
+.primarysmfont {
+  color: #3949ab;
+  height: 18px;
+  width: 18px;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.whiteboldfont {
+  font-weight: 500;
+  color: White;
+  font-size: 15px;
+}
+.greyinput {
+  padding: 6px 8px 8px 0;
+  width: 250px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid lightgrey;
+  outline: none;
+  padding-left: 7px;
+}
+.greyline {
+  width: 100%;
+  height: 1px;
+  background-color: #bdbdbd;
+}
+.row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.topNav-setting-btn {
+  margin: 10px;
+}
+
+@media (max-width: '844px') {
+  .topNav-leftContent {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .topNav-setting-btn {
+    display: none;
+  }
+  .topNav-order-btn {
+    display: none;
+  }
+}

@@ -1,5 +1,3 @@
-import React from 'react'
-import './scss/index.scss'
 import Carousel from './components/Carousel'
 import Content from './components/Content'
 import FeaturedProducts from './components/FeaturedProducts'
@@ -17,24 +15,30 @@ import SideNavFilter from './components/SideNavFilter'
 import TopNav from './components/TopNav'
 import TopProducts from './components/TopProducts'
 
-import { COMPONENTS_CONFIG } from './config/Components'
-
-export {
-  COMPONENTS_CONFIG,
-  ProductSuggestion1,
-  SearchBar,
-  SearchResult,
-  SideNavFilter,
-  TopNav,
-  TopProducts,
-  NewArrival,
-  Login,
-  Carousel,
-  Footer,
-  Content,
-  FeaturedProducts,
-  Features,
-  Header,
-  HotDeals,
-  ImageViewer
-}
+export const COMPONENTS_CONFIG = [
+  {
+    name: 'Carousel',
+    description: '',
+    component: Carousel,
+    propsType:[
+        {
+            type: "data",
+            api: "",
+            limit: "",
+            propKey: "apiConfig"
+        },
+        {
+            type: 'config',
+            field: 'boolean',
+            defaultValue: false,
+            propKey: "reversed"
+        },
+        {
+            type: 'config',
+            field: 'number',
+            defaultValue: 5000,
+            propKey: "interval"
+        },
+    ]
+  }
+]
